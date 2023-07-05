@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #212529, #2a6cad);
+  padding: 10px;
+}
+
+.quiz-form {
+  width: 100%;
+  max-width: 540px;
+  background-color: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 7px;
+  border-radius: 10px;
+}
+
+.quiz-form h3 {
+  color: #002765;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-weight: bold;
+  border-bottom: 3px solid #002765;
+}
+
+.text-main,
+.input-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.text-main textarea,
+.input-main input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  resize: none;
+}
+
+.addBtn-main {
+  text-align: center;
+}
+
+.addBtn {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  margin: 20px 0;
+  background-color: #2a6cad;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.addBtn:hover {
+  background-color: #18426b;
+  transition: 0.3s;
+}
+
+.list {
+  background-color: #edeef0;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.answer{
+    background-color: #70e000;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
